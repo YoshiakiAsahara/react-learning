@@ -1,10 +1,10 @@
 import React from "react";
-
+import classes from "./CssModule.module.scss";
 const CssModule = () => {
   return (
-    <div>
-      <p>CssModuleです</p>
-      <button>ボタン</button>
+    <div className={classes.container}>
+      <p className={classes.title}>CssModuleです</p>
+      <button className={classes.button}>ボタン</button>
     </div>
   );
 };
